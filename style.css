@@ -1,0 +1,48 @@
+:root{
+    --color1: #001420;
+    --color2: #023434;
+    --color3: #aaa;
+    --color4: #110011;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: var(--color1);
+    width: 100vw;
+    min-height: 100px;
+    display: flex;
+    
+}
+header picture{
+    background-color: var(--color2);
+    height: 100px;
+    width: 100px;
+}
+header nav{
+    color: var(--color3);
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+
+}
+header nav ul{
+    list-style: none;
+    display: inline-flex;
+    
+    
+}
+header nav ul li{
+    padding: 20px;
+    
+}
+header nav ul :hover{
+    background-color: rgba(250, 249, 249, 0.349);
+}
